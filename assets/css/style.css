@@ -1,0 +1,170 @@
+.dflex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto
+}
+#pkmContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+    padding: 1rem;
+    
+}
+
+#pkmContainer >* {
+    width:20%;
+
+    border: .1rem solid black;
+    padding: 1rem;
+    margin:  1rem auto;
+    border-radius: 1rem;
+}
+
+#pkmContainer div {
+    text-align: center;
+}
+#pkmContainer img{
+    max-width: 100%;
+}
+
+#pkmContainer img:hover{
+    transition: all .5s ease-in-out;
+    opacity:0.5;
+}
+
+h1, h2, h3 {
+    font-weight:bold;
+    text-align:center;
+}
+
+h3{
+    font-size: 12px; 
+}
+p{
+    font-size: 8px;
+}
+#btnContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+#btnContainer button{
+    width:20%;
+    border: .3rem solid #333;
+    color: rgb(177, 176, 176);
+    text-align:center;
+    margin: 0 auto;
+    padding: 2rem;
+    cursor: pointer;
+    border-radius:1rem;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+#btnContainer{
+    margin: 0 auto;
+    background-color: #333;
+    border-radius: 2rem;
+}
+
+.typeImg{
+    width:30%;
+}
+
+
+/* .typeDiv{
+    display: flex;
+    justify-content: center;
+} */
+
+.displayNone{
+    display:none;
+}
+
+.visible{
+    display:block;
+}
+
+.feu{
+    background-color:red;
+    color:rgb(76, 76, 76);
+}
+.eau{
+    background-color:blue;
+    color:rgb(76, 76, 76);
+}
+.plante{
+    background-color:green;
+    color:rgb(76, 76, 76);
+}
+.normal{
+    background-color:grey;
+}
+.combat{
+    background-color:brown;
+    color:rgb(76, 76, 76);
+}
+.vol{
+    background-color:lightblue;
+    color:rgb(76, 76, 76);
+}
+.poison{
+    background-color:purple;
+    color:#fff;
+}
+.sol{
+    background-color:lightcoral;
+    color:rgb(76, 76, 76);
+}
+.roche{
+    background-color:rgb(113, 109, 109);
+    color:rgb(76, 76, 76);
+}
+.insecte{
+    background-color:darkgreen;
+    color:#fff;
+}
+.spectre{
+    background-color:rgb(188, 35, 142);
+    color:rgb(76, 76, 76);
+}
+.acier{
+    background-color:lightgray;
+    color:rgb(76, 76, 76);
+}
+.electric{
+    background-color:yellow;
+    color:rgb(76, 76, 76);
+}
+.glace{
+    background-color:lightcyan;
+    color:rgb(76, 76, 76);
+}
+.dragon{
+    background-color:rgb(74, 4, 74);
+    color:#fff;
+}
+.tenebre{
+    background-color:rgb(20, 19, 19);
+    color:#fff;
+}
+.fee{
+    background-color:pink;
+    color:rgb(76, 76, 76);
+}
+
+.psy{
+    background-color:rgb(207, 36, 176);
+    color:rgb(76, 76, 76);
+}
